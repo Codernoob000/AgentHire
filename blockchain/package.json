@@ -1,0 +1,27 @@
+{
+  "name": "algo-pay",
+  "version": "1.0.0",
+  "description": "Multi-agent Algorand payment system with autonomous error handling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "pentest": "node scripts/runPentest.js",
+    "server": "node server.js",
+    "audit": "npm audit",
+    "generate-account": "node scripts/generateAccount.js"
+  },
+  "keywords": [
+    "algorand",
+    "blockchain",
+    "payment",
+    "algosdk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "algosdk": "^3.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.0",
+    "express": "^5.2.1"
+  }
+}

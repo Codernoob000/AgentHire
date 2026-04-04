@@ -1,0 +1,1070 @@
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T17:58:23.951Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T17:58:23.953Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T17:58:23.954Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T17:58:23.955Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T17:58:23.956Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T17:58:23.957Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T17:58:23.958Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T17:58:23.960Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T17:58:23.961Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T17:58:24.462Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62065747
+[2026-04-03T17:58:24.463Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62065747
+[2026-04-03T17:58:24.464Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T17:58:24.477Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T17:58:24.481Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T17:58:24.481Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T17:58:24.485Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T17:58:24.489Z] [SUCCESS] [AccountService] Account loaded: ***
+[2026-04-03T17:58:24.491Z] [SUCCESS] [TestRunner] PASS: Account loaded — ***
+[2026-04-03T17:58:24.492Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T17:58:24.667Z] [INFO] [AccountService] Balance for ***: 0.0000 ALGO
+[2026-04-03T17:58:24.668Z] [WARN] [TestRunner] SKIP: Account has 0 balance — fund via faucet first.
+[2026-04-03T17:58:24.669Z] [INFO] [TestRunner] 📋 Address: JFMM35AKZMBB37SEU762V3BERED33IXQJZEBQOVEAH6DS3ER444Q5PKY2U
+[2026-04-03T17:58:24.669Z] [INFO] [TestRunner] 🔗 Faucet: https://bank.testnet.algorand.network/
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:04:08.966Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:04:08.967Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:04:08.968Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:04:08.969Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:04:08.970Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:04:08.970Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:04:08.971Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:04:08.972Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:04:08.974Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:04:09.872Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62065875
+[2026-04-03T18:04:09.873Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62065875
+[2026-04-03T18:04:09.874Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:04:09.894Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:04:09.898Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:04:09.900Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:04:09.903Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:04:09.908Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:04:09.908Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:04:09.910Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:04:10.813Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.0000 ALGO
+[2026-04-03T18:04:10.817Z] [WARN] [TestRunner] SKIP: Account has 0 balance — fund via faucet first.
+[2026-04-03T18:04:10.824Z] [INFO] [TestRunner] 📋 Address: JFMM35AKZMBB37SEU762V3BERED33IXQJZEBQOVEAH6DS3ER444Q5PKY2U
+[2026-04-03T18:04:10.844Z] [INFO] [TestRunner] 🔗 Faucet: https://bank.testnet.algorand.network/
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:06:58.181Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:06:58.182Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:06:58.183Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:06:58.187Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:06:58.187Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:06:58.188Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:06:58.189Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:06:58.189Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:06:58.191Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:06:58.625Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62065938
+[2026-04-03T18:06:58.628Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62065938
+[2026-04-03T18:06:58.629Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:06:58.652Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:06:58.657Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:06:58.661Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:06:58.662Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:06:58.667Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:06:58.668Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:06:58.678Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:06:58.844Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.0000 ALGO
+[2026-04-03T18:06:58.845Z] [WARN] [TestRunner] SKIP: Account has 0 balance — fund via faucet first.
+[2026-04-03T18:06:58.846Z] [INFO] [TestRunner] 📋 Address: JFMM35AKZMBB37SEU762V3BERED33IXQJZEBQOVEAH6DS3ER444Q5PKY2U
+[2026-04-03T18:06:58.846Z] [INFO] [TestRunner] 🔗 Faucet: https://bank.testnet.algorand.network/
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:13:06.429Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:13:06.430Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:13:06.431Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:13:06.431Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:13:06.432Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:13:06.432Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:13:06.433Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:13:06.433Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:13:06.434Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:13:07.064Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62066075
+[2026-04-03T18:13:07.066Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62066075
+[2026-04-03T18:13:07.067Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:13:07.082Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:13:07.084Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:13:07.085Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:13:07.086Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:13:07.091Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:13:07.091Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:13:07.092Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:13:07.265Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 1.0000 ALGO
+[2026-04-03T18:13:07.266Z] [SUCCESS] [TestRunner] PASS: Balance = 1.0000 ALGO
+[2026-04-03T18:13:07.268Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-03T18:13:07.270Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-03T18:13:07.279Z] [SUCCESS] [AccountService] Account generated: W5IQPM...VCOI
+[2026-04-03T18:13:07.295Z] [INFO] [TestRunner] Test receiver: W5IQPM...VCOI
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-03T18:13:07.300Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-03T18:13:07.301Z] [SUCCESS] [ValidationAgent] Address is valid: W5IQPMLU...
+[2026-04-03T18:13:07.302Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-03T18:13:07.303Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-03T18:13:07.304Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-03T18:13:07.452Z] [INFO] [ValidationAgent] Account balance: 1.0000 ALGO (1000000 microAlgos)
+[2026-04-03T18:13:07.453Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-03T18:13:07.454Z] [INFO] [PaymentService] Sending 0.0010 ALGO from JFMM35...KY2U → W5IQPM...VCOI
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-03T18:13:07.456Z] [INFO] [TransactionAgent] Payment details: | {"from":"JFMM35AK...","to":"W5IQPMLU...","amount":"0.0010 ALGO (1000 microAlgos)"}
+[2026-04-03T18:13:07.457Z] [INFO] [TransactionAgent] Building payment txn: 0.0010 ALGO
+[2026-04-03T18:13:07.660Z] [ERROR] [TestRunner] UNKNOWN: Address must not be null or undefined
+[2026-04-03T18:13:07.660Z] [WARN] [DebugAgent] 💡 Suggestion: An unexpected error occurred. Check the full error log for details.
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:13:49.967Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:13:49.969Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:13:49.970Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:13:49.970Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:13:49.971Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:13:49.971Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:13:49.972Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:13:49.973Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:13:49.974Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:13:50.391Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62066091
+[2026-04-03T18:13:50.405Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62066091
+[2026-04-03T18:13:50.406Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:13:50.419Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:13:50.421Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:13:50.422Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:13:50.423Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:13:50.427Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:13:50.428Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:13:50.429Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:13:50.623Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 1.0000 ALGO
+[2026-04-03T18:13:50.625Z] [SUCCESS] [TestRunner] PASS: Balance = 1.0000 ALGO
+[2026-04-03T18:13:50.626Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-03T18:13:50.628Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-03T18:13:50.635Z] [SUCCESS] [AccountService] Account generated: YRL44Y...OLGM
+[2026-04-03T18:13:50.636Z] [INFO] [TestRunner] Test receiver: YRL44Y...OLGM
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-03T18:13:50.640Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-03T18:13:50.642Z] [SUCCESS] [ValidationAgent] Address is valid: YRL44YIM...
+[2026-04-03T18:13:50.643Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-03T18:13:50.643Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-03T18:13:50.644Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-03T18:13:50.776Z] [INFO] [ValidationAgent] Account balance: 1.0000 ALGO (1000000 microAlgos)
+[2026-04-03T18:13:50.815Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-03T18:13:50.821Z] [INFO] [PaymentService] Sending 0.0010 ALGO from JFMM35...KY2U → YRL44Y...OLGM
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-03T18:13:50.823Z] [INFO] [TransactionAgent] Payment details: | {"from":"JFMM35AK...","to":"YRL44YIM...","amount":"0.0010 ALGO (1000 microAlgos)"}
+[2026-04-03T18:13:50.825Z] [INFO] [TransactionAgent] Building payment txn: 0.0010 ALGO
+[2026-04-03T18:13:51.069Z] [ERROR] [TestRunner] UNKNOWN: Address must not be null or undefined
+[2026-04-03T18:13:51.070Z] [WARN] [DebugAgent] 💡 Suggestion: An unexpected error occurred. Check the full error log for details.
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:15:03.216Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:15:03.219Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:15:03.220Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:15:03.221Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:15:03.222Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:15:03.224Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:15:03.225Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:15:03.226Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:15:03.227Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:15:03.822Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62066118
+[2026-04-03T18:15:03.845Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62066118
+[2026-04-03T18:15:03.847Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:15:03.857Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:15:03.858Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:15:03.860Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:15:03.861Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:15:03.868Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:15:03.870Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:15:03.870Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:15:04.089Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 1.0000 ALGO
+[2026-04-03T18:15:04.089Z] [SUCCESS] [TestRunner] PASS: Balance = 1.0000 ALGO
+[2026-04-03T18:15:04.090Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-03T18:15:04.091Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-03T18:15:04.096Z] [SUCCESS] [AccountService] Account generated: T46PLX...5MZI
+[2026-04-03T18:15:04.097Z] [INFO] [TestRunner] Test receiver: T46PLX...5MZI
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-03T18:15:04.099Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-03T18:15:04.100Z] [SUCCESS] [ValidationAgent] Address is valid: T46PLXC3...
+[2026-04-03T18:15:04.100Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-03T18:15:04.101Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-03T18:15:04.102Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-03T18:15:04.292Z] [INFO] [ValidationAgent] Account balance: 1.0000 ALGO (1000000 microAlgos)
+[2026-04-03T18:15:04.293Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-03T18:15:04.296Z] [INFO] [PaymentService] Sending 0.0010 ALGO from JFMM35...KY2U → T46PLX...5MZI
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-03T18:15:04.298Z] [INFO] [TransactionAgent] Payment details: | {"from":"JFMM35AK...","to":"T46PLXC3...","amount":"0.0010 ALGO (1000 microAlgos)"}
+[2026-04-03T18:15:04.300Z] [INFO] [TransactionAgent] Building payment txn: 0.0010 ALGO
+[2026-04-03T18:15:04.619Z] [ERROR] [TestRunner] UNKNOWN: Do not know how to serialize a BigInt
+[2026-04-03T18:15:04.620Z] [WARN] [DebugAgent] 💡 Suggestion: An unexpected error occurred. Check the full error log for details.
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:16:13.237Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:16:13.239Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:16:13.240Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:16:13.241Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:16:13.241Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:16:13.242Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:16:13.242Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:16:13.243Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:16:13.244Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:16:13.568Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62066144
+[2026-04-03T18:16:13.589Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62066144
+[2026-04-03T18:16:13.592Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:16:13.606Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:16:13.607Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:16:13.607Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:16:13.608Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:16:13.612Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:16:13.613Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:16:13.613Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:16:13.727Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 1.0000 ALGO
+[2026-04-03T18:16:13.728Z] [SUCCESS] [TestRunner] PASS: Balance = 1.0000 ALGO
+[2026-04-03T18:16:13.729Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-03T18:16:13.729Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-03T18:16:13.738Z] [SUCCESS] [AccountService] Account generated: B2ZOHD...HRCM
+[2026-04-03T18:16:13.739Z] [INFO] [TestRunner] Test receiver: B2ZOHD...HRCM
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-03T18:16:13.742Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-03T18:16:13.743Z] [SUCCESS] [ValidationAgent] Address is valid: B2ZOHDJN...
+[2026-04-03T18:16:13.744Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-03T18:16:13.744Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-03T18:16:13.745Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-03T18:16:13.861Z] [INFO] [ValidationAgent] Account balance: 1.0000 ALGO (1000000 microAlgos)
+[2026-04-03T18:16:13.862Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-03T18:16:13.864Z] [INFO] [PaymentService] Sending 0.0010 ALGO from JFMM35...KY2U → B2ZOHD...HRCM
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-03T18:16:13.866Z] [INFO] [TransactionAgent] Payment details: | {
+  "from": "JFMM35AK...",
+  "to": "B2ZOHDJN...",
+  "amount": "0.0010 ALGO (1000 microAlgos)"
+}
+[2026-04-03T18:16:13.867Z] [INFO] [TransactionAgent] Building payment txn: 0.0010 ALGO
+[2026-04-03T18:16:13.990Z] [SUCCESS] [TransactionAgent] Transaction built successfully. | {
+  "from": "JFMM35AK...",
+  "to": "B2ZOHDJN...",
+  "amount": "0.0010 ALGO",
+  "fee": "1000"
+}
+[2026-04-03T18:16:13.992Z] [INFO] [TransactionAgent] Signing transaction...
+[2026-04-03T18:16:14.000Z] [SUCCESS] [TransactionAgent] Transaction signed.
+[2026-04-03T18:16:14.000Z] [INFO] [TransactionAgent] Submitting transaction to network...
+[2026-04-03T18:16:14.128Z] [ERROR] [TestRunner] INSUFFICIENT_FUNDS: Network request error. Received status 400 (Bad Request): TransactionPool.Remember: transaction F32E2O7DGP4WHDOQO4SBWGGP5BECSNZNEH2NRI4I4JHUP53WXXOQ: account B2ZOHDJNH4TPSIXXEVK5YWU7EQQ432YY3ZENPFTUJ3JQYNHBTSKP4NHRCM balance 1000 below min 100000 (0 assets)
+[2026-04-03T18:16:14.130Z] [WARN] [DebugAgent] 💡 Suggestion: Account does not have enough ALGO. Fund your account using the TestNet faucet.
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-03T18:16:41.800Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-03T18:16:41.801Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-03T18:16:41.802Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-03T18:16:41.802Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-03T18:16:41.803Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-03T18:16:41.803Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-03T18:16:41.804Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-03T18:16:41.805Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-03T18:16:41.807Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-03T18:16:42.164Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62066154
+[2026-04-03T18:16:42.181Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62066154
+[2026-04-03T18:16:42.182Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-03T18:16:42.196Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-03T18:16:42.197Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-03T18:16:42.197Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-03T18:16:42.198Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-03T18:16:42.202Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-03T18:16:42.202Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-03T18:16:42.203Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-03T18:16:42.396Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 1.0000 ALGO
+[2026-04-03T18:16:42.397Z] [SUCCESS] [TestRunner] PASS: Balance = 1.0000 ALGO
+[2026-04-03T18:16:42.397Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-03T18:16:42.399Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-03T18:16:42.407Z] [SUCCESS] [AccountService] Account generated: HLCGWR...5WH4
+[2026-04-03T18:16:42.417Z] [INFO] [TestRunner] Test receiver: HLCGWR...5WH4
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-03T18:16:42.418Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-03T18:16:42.419Z] [SUCCESS] [ValidationAgent] Address is valid: HLCGWR36...
+[2026-04-03T18:16:42.419Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-03T18:16:42.419Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-03T18:16:42.420Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-03T18:16:42.597Z] [INFO] [ValidationAgent] Account balance: 1.0000 ALGO (1000000 microAlgos)
+[2026-04-03T18:16:42.598Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-03T18:16:42.600Z] [INFO] [PaymentService] Sending 0.2000 ALGO from JFMM35...KY2U → HLCGWR...5WH4
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-03T18:16:42.602Z] [INFO] [TransactionAgent] Payment details: | {
+  "from": "JFMM35AK...",
+  "to": "HLCGWR36...",
+  "amount": "0.2000 ALGO (200000 microAlgos)"
+}
+[2026-04-03T18:16:42.604Z] [INFO] [TransactionAgent] Building payment txn: 0.2000 ALGO
+[2026-04-03T18:16:42.807Z] [SUCCESS] [TransactionAgent] Transaction built successfully. | {
+  "from": "JFMM35AK...",
+  "to": "HLCGWR36...",
+  "amount": "0.2000 ALGO",
+  "fee": "1000"
+}
+[2026-04-03T18:16:42.817Z] [INFO] [TransactionAgent] Signing transaction...
+[2026-04-03T18:16:42.824Z] [SUCCESS] [TransactionAgent] Transaction signed.
+[2026-04-03T18:16:42.826Z] [INFO] [TransactionAgent] Submitting transaction to network...
+[2026-04-03T18:16:43.107Z] [SUCCESS] [TransactionAgent] Transaction submitted! TxID: K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q
+[2026-04-03T18:16:43.109Z] [INFO] [TransactionAgent] Waiting for confirmation (4 rounds)...
+[2026-04-03T18:16:48.119Z] [SUCCESS] [TransactionAgent] 🎉 Transaction confirmed in round 62066157! | {
+  "txId": "K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q",
+  "confirmedRound": "62066157"
+}
+
+══════════════════════════════════════════════════
+  ✅ PAYMENT COMPLETE
+══════════════════════════════════════════════════
+[2026-04-03T18:16:48.121Z] [SUCCESS] [TransactionAgent] Payment successful! | {
+  "txId": "K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q",
+  "confirmedRound": "62066157",
+  "amount": "0.2000 ALGO"
+}
+[2026-04-03T18:16:48.123Z] [SUCCESS] [PaymentService] 🎉 Payment completed successfully! | {
+  "txId": "K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q",
+  "confirmedRound": "62066157"
+}
+[2026-04-03T18:16:48.124Z] [SUCCESS] [TestRunner] PASS: Payment sent successfully! | {
+  "txId": "K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q",
+  "confirmedRound": "62066157"
+}
+[2026-04-03T18:16:48.125Z] [INFO] [TestRunner] 🔗 Explorer: https://testnet.explorer.perawallet.app/tx/K7GY5YPSAXIWM7GVUCXEHNKW7JDJOYKTA576DNRDOI7BARSUFP2Q
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TESTING SUITE — STARTING
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.005Z] [INFO] [PenTestAgent] Running comprehensive security audit...
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 1: Secret Exposure
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.008Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskSecret properly masks mnemonics: PASS
+[2026-04-04T15:47:21.008Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskAddress properly truncates: PASS
+[2026-04-04T15:47:21.009Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] system.log free of raw mnemonics: PASS
+[2026-04-04T15:47:21.010Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] No secret keys in system.log: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 2: Input Injection
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.013Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:47:21.013Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty mnemonic rejected: PASS
+[2026-04-04T15:47:21.014Z] [ERROR] [ValidationAgent] Mnemonic word count: 30 (expected 25)
+[2026-04-04T15:47:21.015Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] 30-word mnemonic rejected: PASS
+[2026-04-04T15:47:21.016Z] [ERROR] [ValidationAgent] Mnemonic word count: 5 (expected 25)
+[2026-04-04T15:47:21.017Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] SQL injection in mnemonic rejected: PASS
+[2026-04-04T15:47:21.017Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:47:21.018Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] XSS in mnemonic rejected: PASS
+[2026-04-04T15:47:21.019Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:47:21.020Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null mnemonic rejected: PASS
+[2026-04-04T15:47:21.021Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:47:21.025Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Undefined mnemonic rejected: PASS
+[2026-04-04T15:47:21.026Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:47:21.026Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric mnemonic rejected: PASS
+[2026-04-04T15:47:21.027Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T15:47:21.027Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty address rejected: PASS
+[2026-04-04T15:47:21.028Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T15:47:21.029Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Garbage address rejected: PASS
+[2026-04-04T15:47:21.029Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T15:47:21.030Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null address rejected: PASS
+[2026-04-04T15:47:21.031Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T15:47:21.031Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric address rejected: PASS
+[2026-04-04T15:47:21.032Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:47:21.033Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Path traversal in mnemonic rejected: PASS
+[2026-04-04T15:47:21.034Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:47:21.035Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Oversized input handled safely: PASS
+[2026-04-04T15:47:21.036Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:47:21.036Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Unicode emoji mnemonic rejected: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 3: Environment Tampering
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.038Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file exists: PASS
+[2026-04-04T15:47:21.039Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env is in .gitignore: PASS
+[2026-04-04T15:47:21.040Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file access check: PASS — File exists and is accessible
+[2026-04-04T15:47:21.041Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] NETWORK has valid value: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 4: Network Security
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.043Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] All endpoints use HTTPS: PASS
+[2026-04-04T15:47:21.043Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] No wildcard API tokens: PASS
+[2026-04-04T15:47:21.043Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] PureStake API key from env: PASS
+[2026-04-04T15:47:21.044Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] Retry limit is reasonable: PASS — Max retries: 3
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 5: Transaction Manipulation
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.047Z] [WARN] [PenTestAgent] ⚠️ [TXN_MANIPULATION] Negative amount check needed: WARN — Code should validate amount > 0 before building txn
+[2026-04-04T15:47:21.048Z] [WARN] [PenTestAgent] ⚠️ [TXN_MANIPULATION] Zero amount check needed: WARN — Consider blocking zero-amount transactions
+[2026-04-04T15:47:21.049Z] [WARN] [PenTestAgent] ⚠️ [TXN_MANIPULATION] Amount overflow protection needed: WARN — Consider max amount validation
+[2026-04-04T15:47:21.050Z] [WARN] [PenTestAgent] ⚠️ [TXN_MANIPULATION] Self-transfer detection needed: WARN — Consider warning when sender === receiver
+[2026-04-04T15:47:21.050Z] [WARN] [PenTestAgent] ⚠️ [TXN_MANIPULATION] Decimal amount validation needed: WARN — microAlgos must be integers — add Math.floor() guard
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 6: Source Code Secret Scan
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.052Z] [INFO] [SecurityAgent] Scanning debug.js for hardcoded secrets...
+[2026-04-04T15:47:21.052Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in debug.js
+[2026-04-04T15:47:21.053Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T15:47:21.053Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T15:47:21.054Z] [INFO] [SecurityAgent] Scanning orchestrator.js for hardcoded secrets...
+[2026-04-04T15:47:21.055Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in orchestrator.js
+[2026-04-04T15:47:21.055Z] [INFO] [SecurityAgent] Scanning pentest.js for hardcoded secrets...
+[2026-04-04T15:47:21.056Z] [WARN] [SecurityAgent] ⚠️  Potential hardcoded mnemonic detected!
+[2026-04-04T15:47:21.057Z] [WARN] [SecurityAgent] ⚠️  Found 1 potential hardcoded Algorand address(es).
+[2026-04-04T15:47:21.057Z] [ERROR] [PenTestAgent] 🔴 [SOURCE_SCAN] Secrets in agents/pentest.js: FAIL — Potential hardcoded mnemonic detected!; Found 1 potential hardcoded Algorand address(es).
+[2026-04-04T15:47:21.058Z] [INFO] [SecurityAgent] Scanning security.js for hardcoded secrets...
+[2026-04-04T15:47:21.058Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in security.js
+[2026-04-04T15:47:21.059Z] [INFO] [SecurityAgent] Scanning transaction.js for hardcoded secrets...
+[2026-04-04T15:47:21.060Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in transaction.js
+[2026-04-04T15:47:21.060Z] [INFO] [SecurityAgent] Scanning validation.js for hardcoded secrets...
+[2026-04-04T15:47:21.061Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in validation.js
+[2026-04-04T15:47:21.062Z] [INFO] [SecurityAgent] Scanning accountService.js for hardcoded secrets...
+[2026-04-04T15:47:21.062Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in accountService.js
+[2026-04-04T15:47:21.063Z] [INFO] [SecurityAgent] Scanning hardeningService.js for hardcoded secrets...
+[2026-04-04T15:47:21.063Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in hardeningService.js
+[2026-04-04T15:47:21.064Z] [INFO] [SecurityAgent] Scanning paymentService.js for hardcoded secrets...
+[2026-04-04T15:47:21.065Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in paymentService.js
+[2026-04-04T15:47:21.065Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T15:47:21.066Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T15:47:21.067Z] [INFO] [SecurityAgent] Scanning settings.js for hardcoded secrets...
+[2026-04-04T15:47:21.067Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in settings.js
+[2026-04-04T15:47:21.068Z] [INFO] [SecurityAgent] Scanning generateAccount.js for hardcoded secrets...
+[2026-04-04T15:47:21.069Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in generateAccount.js
+[2026-04-04T15:47:21.070Z] [INFO] [SecurityAgent] Scanning runPentest.js for hardcoded secrets...
+[2026-04-04T15:47:21.070Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in runPentest.js
+[2026-04-04T15:47:21.071Z] [INFO] [SecurityAgent] Scanning index.js for hardcoded secrets...
+[2026-04-04T15:47:21.072Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in index.js
+[2026-04-04T15:47:21.072Z] [INFO] [SecurityAgent] Scanning test.js for hardcoded secrets...
+[2026-04-04T15:47:21.073Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in test.js
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 7: Log File Security
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.075Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Logs in .gitignore: PASS — Log files should NOT be committed
+[2026-04-04T15:47:21.077Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Address exposure in logs acceptable: PASS
+[2026-04-04T15:47:21.078Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Log file size acceptable: PASS — Size: 0.04MB
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 8: Dependency Security
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.079Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] package-lock.json exists: PASS — Lock file ensures reproducible installs
+[2026-04-04T15:47:21.080Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Minimal dependency count: PASS — Only 2 direct dependencies
+[2026-04-04T15:47:21.080Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Dev dependencies: PASS — 0 dev dependencies
+[2026-04-04T15:47:21.081Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] algosdk from npm registry: PASS — Version: ^3.0.0
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 9: DoS Resilience
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.082Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Retry backoff configured: PASS — Max: 3, Multiplier: 2x
+[2026-04-04T15:47:21.082Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Health check timeout reasonable: PASS — 10000ms
+[2026-04-04T15:47:21.083Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Confirmation round limit OK: PASS — 4 rounds
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TEST REPORT
+══════════════════════════════════════════════════
+[2026-04-04T15:47:21.084Z] [INFO] [PenTestAgent] Total Tests:  42
+[2026-04-04T15:47:21.085Z] [INFO] [PenTestAgent] ✅ Passed:    36
+[2026-04-04T15:47:21.086Z] [INFO] [PenTestAgent] 🔴 Failed:    1
+[2026-04-04T15:47:21.086Z] [INFO] [PenTestAgent] ⚠️  Warnings:  5
+[2026-04-04T15:47:21.087Z] [INFO] [PenTestAgent] 
+[2026-04-04T15:47:21.088Z] [INFO] [PenTestAgent] Security Score: 86%
+[2026-04-04T15:47:21.089Z] [ERROR] [PenTestAgent] 🔴 CRITICAL FINDINGS:
+[2026-04-04T15:47:21.089Z] [ERROR] [PenTestAgent]   → [SOURCE_SCAN] Secrets in agents/pentest.js: Potential hardcoded mnemonic detected!; Found 1 potential hardcoded Algorand address(es).
+[2026-04-04T15:47:21.090Z] [WARN] [PenTestAgent] ⚠️  RECOMMENDATIONS:
+[2026-04-04T15:47:21.091Z] [WARN] [PenTestAgent]   → [TXN_MANIPULATION] Negative amount check needed: Code should validate amount > 0 before building txn
+[2026-04-04T15:47:21.091Z] [WARN] [PenTestAgent]   → [TXN_MANIPULATION] Zero amount check needed: Consider blocking zero-amount transactions
+[2026-04-04T15:47:21.092Z] [WARN] [PenTestAgent]   → [TXN_MANIPULATION] Amount overflow protection needed: Consider max amount validation
+[2026-04-04T15:47:21.094Z] [WARN] [PenTestAgent]   → [TXN_MANIPULATION] Self-transfer detection needed: Consider warning when sender === receiver
+[2026-04-04T15:47:21.094Z] [WARN] [PenTestAgent]   → [TXN_MANIPULATION] Decimal amount validation needed: microAlgos must be integers — add Math.floor() guard
+[2026-04-04T15:47:21.096Z] [INFO] [PenTestRunner] Report saved to: logs/pentest-report.json
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TESTING SUITE — STARTING
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.307Z] [INFO] [PenTestAgent] Running comprehensive security audit...
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 1: Secret Exposure
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.310Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskSecret properly masks mnemonics: PASS
+[2026-04-04T15:48:16.311Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskAddress properly truncates: PASS
+[2026-04-04T15:48:16.312Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] system.log free of raw mnemonics: PASS
+[2026-04-04T15:48:16.313Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] No secret keys in system.log: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 2: Input Injection
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.316Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:48:16.317Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty mnemonic rejected: PASS
+[2026-04-04T15:48:16.317Z] [ERROR] [ValidationAgent] Mnemonic word count: 30 (expected 25)
+[2026-04-04T15:48:16.318Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] 30-word mnemonic rejected: PASS
+[2026-04-04T15:48:16.319Z] [ERROR] [ValidationAgent] Mnemonic word count: 5 (expected 25)
+[2026-04-04T15:48:16.320Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] SQL injection in mnemonic rejected: PASS
+[2026-04-04T15:48:16.320Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:48:16.321Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] XSS in mnemonic rejected: PASS
+[2026-04-04T15:48:16.321Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:48:16.322Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null mnemonic rejected: PASS
+[2026-04-04T15:48:16.322Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:48:16.323Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Undefined mnemonic rejected: PASS
+[2026-04-04T15:48:16.324Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T15:48:16.324Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric mnemonic rejected: PASS
+[2026-04-04T15:48:16.325Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T15:48:16.325Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty address rejected: PASS
+[2026-04-04T15:48:16.326Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T15:48:16.326Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Garbage address rejected: PASS
+[2026-04-04T15:48:16.327Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T15:48:16.328Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null address rejected: PASS
+[2026-04-04T15:48:16.328Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T15:48:16.329Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric address rejected: PASS
+[2026-04-04T15:48:16.330Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:48:16.330Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Path traversal in mnemonic rejected: PASS
+[2026-04-04T15:48:16.331Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:48:16.332Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Oversized input handled safely: PASS
+[2026-04-04T15:48:16.333Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T15:48:16.333Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Unicode emoji mnemonic rejected: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 3: Environment Tampering
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.336Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file exists: PASS
+[2026-04-04T15:48:16.337Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env is in .gitignore: PASS
+[2026-04-04T15:48:16.338Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file access check: PASS — File exists and is accessible
+[2026-04-04T15:48:16.339Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] NETWORK has valid value: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 4: Network Security
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.341Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] All endpoints use HTTPS: PASS
+[2026-04-04T15:48:16.342Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] No wildcard API tokens: PASS
+[2026-04-04T15:48:16.343Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] PureStake API key from env: PASS
+[2026-04-04T15:48:16.343Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] Retry limit is reasonable: PASS — Max retries: 3
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 5: Transaction Manipulation
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.347Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Negative amount blocked: PASS — Correctly rejected
+[2026-04-04T15:48:16.348Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Zero amount blocked: PASS — Correctly rejected
+[2026-04-04T15:48:16.349Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Amount overflow blocked: PASS — Correctly rejected
+[2026-04-04T15:48:16.349Z] [WARN] [HardeningService] ⚠️  Self-transfer detected: sender and receiver are the same address.
+[2026-04-04T15:48:16.351Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Self-transfer detected: PASS — Warning issued for self-transfer
+[2026-04-04T15:48:16.351Z] [WARN] [HardeningService] Amount 1.5 is not an integer — flooring to 1 microAlgos
+[2026-04-04T15:48:16.351Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Decimal amount sanitized: PASS — Input: 1.5, Sanitized: 1
+[2026-04-04T15:48:16.352Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] NaN amount blocked: PASS
+[2026-04-04T15:48:16.352Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] String amount blocked: PASS
+[2026-04-04T15:48:16.353Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Rate limiter active: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 6: Source Code Secret Scan
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.355Z] [INFO] [SecurityAgent] Scanning debug.js for hardcoded secrets...
+[2026-04-04T15:48:16.355Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in debug.js
+[2026-04-04T15:48:16.356Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T15:48:16.357Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T15:48:16.358Z] [INFO] [SecurityAgent] Scanning orchestrator.js for hardcoded secrets...
+[2026-04-04T15:48:16.359Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in orchestrator.js
+[2026-04-04T15:48:16.360Z] [INFO] [SecurityAgent] Scanning security.js for hardcoded secrets...
+[2026-04-04T15:48:16.360Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in security.js
+[2026-04-04T15:48:16.361Z] [INFO] [SecurityAgent] Scanning transaction.js for hardcoded secrets...
+[2026-04-04T15:48:16.362Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in transaction.js
+[2026-04-04T15:48:16.362Z] [INFO] [SecurityAgent] Scanning validation.js for hardcoded secrets...
+[2026-04-04T15:48:16.363Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in validation.js
+[2026-04-04T15:48:16.364Z] [INFO] [SecurityAgent] Scanning accountService.js for hardcoded secrets...
+[2026-04-04T15:48:16.364Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in accountService.js
+[2026-04-04T15:48:16.365Z] [INFO] [SecurityAgent] Scanning hardeningService.js for hardcoded secrets...
+[2026-04-04T15:48:16.365Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in hardeningService.js
+[2026-04-04T15:48:16.366Z] [INFO] [SecurityAgent] Scanning paymentService.js for hardcoded secrets...
+[2026-04-04T15:48:16.367Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in paymentService.js
+[2026-04-04T15:48:16.368Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T15:48:16.368Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T15:48:16.369Z] [INFO] [SecurityAgent] Scanning settings.js for hardcoded secrets...
+[2026-04-04T15:48:16.370Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in settings.js
+[2026-04-04T15:48:16.370Z] [INFO] [SecurityAgent] Scanning generateAccount.js for hardcoded secrets...
+[2026-04-04T15:48:16.371Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in generateAccount.js
+[2026-04-04T15:48:16.371Z] [INFO] [SecurityAgent] Scanning runPentest.js for hardcoded secrets...
+[2026-04-04T15:48:16.372Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in runPentest.js
+[2026-04-04T15:48:16.373Z] [INFO] [SecurityAgent] Scanning index.js for hardcoded secrets...
+[2026-04-04T15:48:16.374Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in index.js
+[2026-04-04T15:48:16.375Z] [INFO] [SecurityAgent] Scanning test.js for hardcoded secrets...
+[2026-04-04T15:48:16.375Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in test.js
+[2026-04-04T15:48:16.376Z] [SUCCESS] [PenTestAgent] ✅ [SOURCE_SCAN] All 15 files clean: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 7: Log File Security
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.377Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Logs in .gitignore: PASS — Log files should NOT be committed
+[2026-04-04T15:48:16.379Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Address exposure in logs acceptable: PASS
+[2026-04-04T15:48:16.380Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Log file size acceptable: PASS — Size: 0.06MB
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 8: Dependency Security
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.382Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] package-lock.json exists: PASS — Lock file ensures reproducible installs
+[2026-04-04T15:48:16.382Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Minimal dependency count: PASS — Only 2 direct dependencies
+[2026-04-04T15:48:16.383Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Dev dependencies: PASS — 0 dev dependencies
+[2026-04-04T15:48:16.383Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] algosdk from npm registry: PASS — Version: ^3.0.0
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 9: DoS Resilience
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.384Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Retry backoff configured: PASS — Max: 3, Multiplier: 2x
+[2026-04-04T15:48:16.385Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Health check timeout reasonable: PASS — 10000ms
+[2026-04-04T15:48:16.385Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Confirmation round limit OK: PASS — 4 rounds
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TEST REPORT
+══════════════════════════════════════════════════
+[2026-04-04T15:48:16.386Z] [INFO] [PenTestAgent] Total Tests:  45
+[2026-04-04T15:48:16.387Z] [INFO] [PenTestAgent] ✅ Passed:    45
+[2026-04-04T15:48:16.387Z] [INFO] [PenTestAgent] 🔴 Failed:    0
+[2026-04-04T15:48:16.388Z] [INFO] [PenTestAgent] ⚠️  Warnings:  0
+[2026-04-04T15:48:16.388Z] [INFO] [PenTestAgent] 
+[2026-04-04T15:48:16.389Z] [INFO] [PenTestAgent] Security Score: 100%
+[2026-04-04T15:48:16.390Z] [INFO] [PenTestRunner] Report saved to: logs/pentest-report.json
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-04T15:48:30.131Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-04T15:48:30.133Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-04T15:48:30.133Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T15:48:30.134Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T15:48:30.135Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-04T15:48:30.137Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-04T15:48:30.138Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-04T15:48:30.169Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-04T15:48:30.170Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:48:30.656Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62094866
+[2026-04-04T15:48:30.658Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62094866
+[2026-04-04T15:48:30.659Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-04T15:48:30.681Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-04T15:48:30.683Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-04T15:48:30.684Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-04T15:48:30.685Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-04T15:48:30.695Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-04T15:48:30.695Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-04T15:48:30.696Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-04T15:48:30.854Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.7990 ALGO
+[2026-04-04T15:48:30.855Z] [SUCCESS] [TestRunner] PASS: Balance = 0.7990 ALGO
+[2026-04-04T15:48:30.856Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-04T15:48:30.857Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-04T15:48:30.898Z] [SUCCESS] [AccountService] Account generated: UOFPOR...DGPY
+[2026-04-04T15:48:30.899Z] [INFO] [TestRunner] Test receiver: UOFPOR...DGPY
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-04T15:48:30.901Z] [INFO] [PaymentService] Running security hardening checks...
+[2026-04-04T15:48:30.902Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-04T15:48:30.904Z] [SUCCESS] [ValidationAgent] Address is valid: UOFPORGS...
+[2026-04-04T15:48:30.905Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-04T15:48:30.905Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-04T15:48:30.906Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-04T15:48:31.054Z] [INFO] [ValidationAgent] Account balance: 0.7990 ALGO (799000 microAlgos)
+[2026-04-04T15:48:31.055Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-04T15:48:31.056Z] [INFO] [PaymentService] Sending 0.2000 ALGO from JFMM35...KY2U → UOFPOR...DGPY
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-04T15:48:31.059Z] [INFO] [TransactionAgent] Payment details: | {
+  "from": "JFMM35AK...",
+  "to": "UOFPORGS...",
+  "amount": "0.2000 ALGO (200000 microAlgos)"
+}
+[2026-04-04T15:48:31.060Z] [INFO] [TransactionAgent] Building payment txn: 0.2000 ALGO
+[2026-04-04T15:48:31.213Z] [SUCCESS] [TransactionAgent] Transaction built successfully. | {
+  "from": "JFMM35AK...",
+  "to": "UOFPORGS...",
+  "amount": "0.2000 ALGO",
+  "fee": "1000"
+}
+[2026-04-04T15:48:31.216Z] [INFO] [TransactionAgent] Signing transaction...
+[2026-04-04T15:48:31.225Z] [SUCCESS] [TransactionAgent] Transaction signed.
+[2026-04-04T15:48:31.226Z] [INFO] [TransactionAgent] Submitting transaction to network...
+[2026-04-04T15:48:31.382Z] [SUCCESS] [TransactionAgent] Transaction submitted! TxID: XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ
+[2026-04-04T15:48:31.383Z] [INFO] [TransactionAgent] Waiting for confirmation (4 rounds)...
+[2026-04-04T15:48:34.652Z] [SUCCESS] [TransactionAgent] 🎉 Transaction confirmed in round 62094868! | {
+  "txId": "XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ",
+  "confirmedRound": "62094868"
+}
+
+══════════════════════════════════════════════════
+  ✅ PAYMENT COMPLETE
+══════════════════════════════════════════════════
+[2026-04-04T15:48:34.654Z] [SUCCESS] [TransactionAgent] Payment successful! | {
+  "txId": "XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ",
+  "confirmedRound": "62094868",
+  "amount": "0.2000 ALGO"
+}
+[2026-04-04T15:48:34.655Z] [SUCCESS] [PaymentService] 🎉 Payment completed successfully! | {
+  "txId": "XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ",
+  "confirmedRound": "62094868"
+}
+[2026-04-04T15:48:34.656Z] [SUCCESS] [TestRunner] PASS: Payment sent successfully! | {
+  "txId": "XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ",
+  "confirmedRound": "62094868"
+}
+[2026-04-04T15:48:34.656Z] [INFO] [TestRunner] 🔗 Explorer: https://testnet.explorer.perawallet.app/tx/XIVTGJUK5PO3VYNLSL6ITUTAFGX2JJMAJY5K4YCEURPYQYI7R3BQ
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+[2026-04-04T15:57:42.102Z] [INFO] [APIServer] GET /api/health | {
+  "ip": "::1"
+}
+[2026-04-04T15:57:42.106Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-04T15:57:42.107Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-04T15:57:42.108Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:57:42.546Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095071
+[2026-04-04T15:57:42.547Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:57:42.684Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095071
+[2026-04-04T15:57:42.685Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T15:57:42.687Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T15:57:55.418Z] [INFO] [APIServer] GET /api/health | {
+  "ip": "::1"
+}
+[2026-04-04T15:57:55.420Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:57:56.078Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095076
+[2026-04-04T15:57:56.080Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T15:57:56.083Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T15:58:15.785Z] [INFO] [APIServer] GET /api/account | {
+  "ip": "::1"
+}
+[2026-04-04T15:58:15.787Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-04T15:58:15.804Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-04T15:58:16.276Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.5980 ALGO
+[2026-04-04T15:58:29.727Z] [INFO] [APIServer] GET /api/health | {
+  "ip": "::1"
+}
+[2026-04-04T15:58:29.729Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:58:30.128Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095088
+[2026-04-04T15:58:30.130Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T15:58:30.132Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T15:59:34.121Z] [INFO] [APIServer] GET /api/health | {
+  "ip": "::1"
+}
+[2026-04-04T15:59:34.125Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-04T15:59:34.126Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-04T15:59:34.127Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:59:34.481Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095112
+[2026-04-04T15:59:34.483Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T15:59:34.914Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095112
+[2026-04-04T15:59:34.916Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T15:59:34.918Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T15:59:46.338Z] [INFO] [APIServer] GET /api/account | {
+  "ip": "::1"
+}
+[2026-04-04T15:59:46.341Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-04T15:59:46.394Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-04T15:59:46.901Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.5980 ALGO
+[2026-04-04T15:59:56.406Z] [INFO] [APIServer] GET /api/nonexistent | {
+  "ip": "::1"
+}
+
+══════════════════════════════════════════════════
+  🧪 RUNNING END-TO-END TEST
+══════════════════════════════════════════════════
+[2026-04-04T16:00:18.414Z] [INFO] [TestRunner] AlgoPay v1.0.0 — Test Suite
+[2026-04-04T16:00:18.417Z] [INFO] [TestRunner] ── Test 1: Environment Audit ──
+[2026-04-04T16:00:18.418Z] [INFO] [SecurityAgent] Running environment security audit...
+[2026-04-04T16:00:18.420Z] [SUCCESS] [SecurityAgent] Audit passed: 4 checks OK, 2 warnings
+[2026-04-04T16:00:18.421Z] [SUCCESS] [TestRunner] PASS: Environment audit
+[2026-04-04T16:00:18.422Z] [INFO] [TestRunner] ── Test 2: Network Connection ──
+[2026-04-04T16:00:18.424Z] [INFO] [NetworkAgent] Connecting to Algorand TestNet via AlgoNode...
+[2026-04-04T16:00:18.426Z] [SUCCESS] [NetworkAgent] Clients initialized — Algod: https://testnet-api.algonode.cloud
+[2026-04-04T16:00:18.428Z] [INFO] [NetworkAgent] Health check attempt 1/3...
+[2026-04-04T16:00:18.885Z] [SUCCESS] [NetworkAgent] Node is healthy — Last round: 62095128
+[2026-04-04T16:00:18.887Z] [SUCCESS] [TestRunner] PASS: Connected to AlgoNode — Round 62095128
+[2026-04-04T16:00:18.889Z] [INFO] [TestRunner] ── Test 3: Mnemonic Validation ──
+[2026-04-04T16:00:18.924Z] [SUCCESS] [ValidationAgent] Mnemonic is valid.
+[2026-04-04T16:00:18.925Z] [SUCCESS] [TestRunner] PASS: Mnemonic is valid (25 words)
+[2026-04-04T16:00:18.927Z] [INFO] [TestRunner] ── Test 4: Load Account ──
+[2026-04-04T16:00:18.929Z] [INFO] [AccountService] Loading account from .env mnemonic...
+[2026-04-04T16:00:18.939Z] [SUCCESS] [AccountService] Account loaded: JFMM35...KY2U
+[2026-04-04T16:00:18.940Z] [SUCCESS] [TestRunner] PASS: Account loaded — JFMM35...KY2U
+[2026-04-04T16:00:18.941Z] [INFO] [TestRunner] ── Test 5: Balance Check ──
+[2026-04-04T16:00:19.068Z] [INFO] [AccountService] Balance for JFMM35...KY2U: 0.5980 ALGO
+[2026-04-04T16:00:19.070Z] [SUCCESS] [TestRunner] PASS: Balance = 0.5980 ALGO
+[2026-04-04T16:00:19.071Z] [INFO] [TestRunner] ── Test 6: Send Test Payment ──
+[2026-04-04T16:00:19.072Z] [INFO] [AccountService] Generating new Algorand account...
+[2026-04-04T16:00:19.087Z] [SUCCESS] [AccountService] Account generated: YZZFZO...SBVI
+[2026-04-04T16:00:19.089Z] [INFO] [TestRunner] Test receiver: YZZFZO...SBVI
+
+══════════════════════════════════════════════════
+  📋 PAYMENT SERVICE — Initiating Transfer
+══════════════════════════════════════════════════
+[2026-04-04T16:00:19.092Z] [INFO] [PaymentService] Running security hardening checks...
+[2026-04-04T16:00:19.095Z] [INFO] [PaymentService] Validating receiver address...
+[2026-04-04T16:00:19.097Z] [SUCCESS] [ValidationAgent] Address is valid: YZZFZO7K...
+[2026-04-04T16:00:19.098Z] [INFO] [PaymentService] Validating sender address...
+[2026-04-04T16:00:19.099Z] [SUCCESS] [ValidationAgent] Address is valid: JFMM35AK...
+[2026-04-04T16:00:19.100Z] [INFO] [PaymentService] Checking sender balance...
+[2026-04-04T16:00:19.256Z] [INFO] [ValidationAgent] Account balance: 0.5980 ALGO (598000 microAlgos)
+[2026-04-04T16:00:19.257Z] [SUCCESS] [ValidationAgent] Sufficient balance confirmed.
+[2026-04-04T16:00:19.258Z] [INFO] [PaymentService] Sending 0.2000 ALGO from JFMM35...KY2U → YZZFZO...SBVI
+
+══════════════════════════════════════════════════
+  💸 EXECUTING PAYMENT
+══════════════════════════════════════════════════
+[2026-04-04T16:00:19.261Z] [INFO] [TransactionAgent] Payment details: | {
+  "from": "JFMM35AK...",
+  "to": "YZZFZO7K...",
+  "amount": "0.2000 ALGO (200000 microAlgos)"
+}
+[2026-04-04T16:00:19.263Z] [INFO] [TransactionAgent] Building payment txn: 0.2000 ALGO
+[2026-04-04T16:00:19.411Z] [SUCCESS] [TransactionAgent] Transaction built successfully. | {
+  "from": "JFMM35AK...",
+  "to": "YZZFZO7K...",
+  "amount": "0.2000 ALGO",
+  "fee": "1000"
+}
+[2026-04-04T16:00:19.413Z] [INFO] [TransactionAgent] Signing transaction...
+[2026-04-04T16:00:19.423Z] [SUCCESS] [TransactionAgent] Transaction signed.
+[2026-04-04T16:00:19.424Z] [INFO] [TransactionAgent] Submitting transaction to network...
+[2026-04-04T16:00:19.563Z] [SUCCESS] [TransactionAgent] Transaction submitted! TxID: ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA
+[2026-04-04T16:00:19.570Z] [INFO] [TransactionAgent] Waiting for confirmation (4 rounds)...
+[2026-04-04T16:00:24.682Z] [SUCCESS] [TransactionAgent] 🎉 Transaction confirmed in round 62095131! | {
+  "txId": "ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA",
+  "confirmedRound": "62095131"
+}
+
+══════════════════════════════════════════════════
+  ✅ PAYMENT COMPLETE
+══════════════════════════════════════════════════
+[2026-04-04T16:00:24.686Z] [SUCCESS] [TransactionAgent] Payment successful! | {
+  "txId": "ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA",
+  "confirmedRound": "62095131",
+  "amount": "0.2000 ALGO"
+}
+[2026-04-04T16:00:24.688Z] [SUCCESS] [PaymentService] 🎉 Payment completed successfully! | {
+  "txId": "ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA",
+  "confirmedRound": "62095131"
+}
+[2026-04-04T16:00:24.690Z] [SUCCESS] [TestRunner] PASS: Payment sent successfully! | {
+  "txId": "ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA",
+  "confirmedRound": "62095131"
+}
+[2026-04-04T16:00:24.691Z] [INFO] [TestRunner] 🔗 Explorer: https://testnet.explorer.perawallet.app/tx/ACGQYU7QBS6RSN3O3NEIOLZXEXE463EOQ4UVKCPS2FCZRKM6OIUA
+
+══════════════════════════════════════════════════
+  📊 TEST RESULTS
+══════════════════════════════════════════════════
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TESTING SUITE — STARTING
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.469Z] [INFO] [PenTestAgent] Running comprehensive security audit...
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 1: Secret Exposure
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.473Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskSecret properly masks mnemonics: PASS
+[2026-04-04T16:00:27.474Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] maskAddress properly truncates: PASS
+[2026-04-04T16:00:27.475Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] system.log free of raw mnemonics: PASS
+[2026-04-04T16:00:27.476Z] [SUCCESS] [PenTestAgent] ✅ [SECRET_EXPOSURE] No secret keys in system.log: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 2: Input Injection
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.478Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T16:00:27.478Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty mnemonic rejected: PASS
+[2026-04-04T16:00:27.479Z] [ERROR] [ValidationAgent] Mnemonic word count: 30 (expected 25)
+[2026-04-04T16:00:27.480Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] 30-word mnemonic rejected: PASS
+[2026-04-04T16:00:27.481Z] [ERROR] [ValidationAgent] Mnemonic word count: 5 (expected 25)
+[2026-04-04T16:00:27.481Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] SQL injection in mnemonic rejected: PASS
+[2026-04-04T16:00:27.482Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T16:00:27.482Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] XSS in mnemonic rejected: PASS
+[2026-04-04T16:00:27.483Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T16:00:27.483Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null mnemonic rejected: PASS
+[2026-04-04T16:00:27.484Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T16:00:27.485Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Undefined mnemonic rejected: PASS
+[2026-04-04T16:00:27.485Z] [ERROR] [ValidationAgent] Mnemonic is missing or invalid type.
+[2026-04-04T16:00:27.486Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric mnemonic rejected: PASS
+[2026-04-04T16:00:27.487Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T16:00:27.488Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Empty address rejected: PASS
+[2026-04-04T16:00:27.488Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T16:00:27.489Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Garbage address rejected: PASS
+[2026-04-04T16:00:27.489Z] [ERROR] [ValidationAgent] Address is missing.
+[2026-04-04T16:00:27.490Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Null address rejected: PASS
+[2026-04-04T16:00:27.490Z] [ERROR] [ValidationAgent] Address is not a valid Algorand address.
+[2026-04-04T16:00:27.491Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Numeric address rejected: PASS
+[2026-04-04T16:00:27.491Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T16:00:27.492Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Path traversal in mnemonic rejected: PASS
+[2026-04-04T16:00:27.492Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T16:00:27.493Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Oversized input handled safely: PASS
+[2026-04-04T16:00:27.493Z] [ERROR] [ValidationAgent] Mnemonic word count: 1 (expected 25)
+[2026-04-04T16:00:27.494Z] [SUCCESS] [PenTestAgent] ✅ [INPUT_INJECTION] Unicode emoji mnemonic rejected: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 3: Environment Tampering
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.496Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file exists: PASS
+[2026-04-04T16:00:27.497Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env is in .gitignore: PASS
+[2026-04-04T16:00:27.497Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] .env file access check: PASS — File exists and is accessible
+[2026-04-04T16:00:27.498Z] [SUCCESS] [PenTestAgent] ✅ [ENV_TAMPERING] NETWORK has valid value: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 4: Network Security
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.499Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] All endpoints use HTTPS: PASS
+[2026-04-04T16:00:27.500Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] No wildcard API tokens: PASS
+[2026-04-04T16:00:27.500Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] PureStake API key from env: PASS
+[2026-04-04T16:00:27.501Z] [SUCCESS] [PenTestAgent] ✅ [NETWORK_SEC] Retry limit is reasonable: PASS — Max retries: 3
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 5: Transaction Manipulation
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.503Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Negative amount blocked: PASS — Correctly rejected
+[2026-04-04T16:00:27.504Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Zero amount blocked: PASS — Correctly rejected
+[2026-04-04T16:00:27.505Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Amount overflow blocked: PASS — Correctly rejected
+[2026-04-04T16:00:27.506Z] [WARN] [HardeningService] ⚠️  Self-transfer detected: sender and receiver are the same address.
+[2026-04-04T16:00:27.506Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Self-transfer detected: PASS — Warning issued for self-transfer
+[2026-04-04T16:00:27.507Z] [WARN] [HardeningService] Amount 1.5 is not an integer — flooring to 1 microAlgos
+[2026-04-04T16:00:27.507Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Decimal amount sanitized: PASS — Input: 1.5, Sanitized: 1
+[2026-04-04T16:00:27.508Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] NaN amount blocked: PASS
+[2026-04-04T16:00:27.508Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] String amount blocked: PASS
+[2026-04-04T16:00:27.509Z] [SUCCESS] [PenTestAgent] ✅ [TXN_MANIPULATION] Rate limiter active: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 6: Source Code Secret Scan
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.511Z] [INFO] [SecurityAgent] Scanning debug.js for hardcoded secrets...
+[2026-04-04T16:00:27.512Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in debug.js
+[2026-04-04T16:00:27.513Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T16:00:27.514Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T16:00:27.514Z] [INFO] [SecurityAgent] Scanning orchestrator.js for hardcoded secrets...
+[2026-04-04T16:00:27.515Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in orchestrator.js
+[2026-04-04T16:00:27.515Z] [INFO] [SecurityAgent] Scanning security.js for hardcoded secrets...
+[2026-04-04T16:00:27.516Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in security.js
+[2026-04-04T16:00:27.517Z] [INFO] [SecurityAgent] Scanning transaction.js for hardcoded secrets...
+[2026-04-04T16:00:27.517Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in transaction.js
+[2026-04-04T16:00:27.518Z] [INFO] [SecurityAgent] Scanning validation.js for hardcoded secrets...
+[2026-04-04T16:00:27.518Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in validation.js
+[2026-04-04T16:00:27.519Z] [INFO] [SecurityAgent] Scanning accountService.js for hardcoded secrets...
+[2026-04-04T16:00:27.520Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in accountService.js
+[2026-04-04T16:00:27.520Z] [INFO] [SecurityAgent] Scanning hardeningService.js for hardcoded secrets...
+[2026-04-04T16:00:27.521Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in hardeningService.js
+[2026-04-04T16:00:27.521Z] [INFO] [SecurityAgent] Scanning paymentService.js for hardcoded secrets...
+[2026-04-04T16:00:27.522Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in paymentService.js
+[2026-04-04T16:00:27.523Z] [INFO] [SecurityAgent] Scanning network.js for hardcoded secrets...
+[2026-04-04T16:00:27.523Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in network.js
+[2026-04-04T16:00:27.524Z] [INFO] [SecurityAgent] Scanning settings.js for hardcoded secrets...
+[2026-04-04T16:00:27.524Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in settings.js
+[2026-04-04T16:00:27.525Z] [INFO] [SecurityAgent] Scanning generateAccount.js for hardcoded secrets...
+[2026-04-04T16:00:27.526Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in generateAccount.js
+[2026-04-04T16:00:27.527Z] [INFO] [SecurityAgent] Scanning runPentest.js for hardcoded secrets...
+[2026-04-04T16:00:27.528Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in runPentest.js
+[2026-04-04T16:00:27.529Z] [INFO] [SecurityAgent] Scanning index.js for hardcoded secrets...
+[2026-04-04T16:00:27.529Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in index.js
+[2026-04-04T16:00:27.531Z] [INFO] [SecurityAgent] Scanning test.js for hardcoded secrets...
+[2026-04-04T16:00:27.531Z] [SUCCESS] [SecurityAgent] No hardcoded secrets found in test.js
+[2026-04-04T16:00:27.532Z] [SUCCESS] [PenTestAgent] ✅ [SOURCE_SCAN] All 15 files clean: PASS
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 7: Log File Security
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.533Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Logs in .gitignore: PASS — Log files should NOT be committed
+[2026-04-04T16:00:27.535Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Address exposure in logs acceptable: PASS
+[2026-04-04T16:00:27.536Z] [SUCCESS] [PenTestAgent] ✅ [LOG_SEC] Log file size acceptable: PASS — Size: 0.09MB
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 8: Dependency Security
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.537Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] package-lock.json exists: PASS — Lock file ensures reproducible installs
+[2026-04-04T16:00:27.538Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Minimal dependency count: PASS — Only 4 direct dependencies
+[2026-04-04T16:00:27.538Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] Dev dependencies: PASS — 0 dev dependencies
+[2026-04-04T16:00:27.539Z] [SUCCESS] [PenTestAgent] ✅ [DEPENDENCY] algosdk from npm registry: PASS — Version: ^3.0.0
+
+══════════════════════════════════════════════════
+  🔍 PEN TEST 9: DoS Resilience
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.540Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Retry backoff configured: PASS — Max: 3, Multiplier: 2x
+[2026-04-04T16:00:27.541Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Health check timeout reasonable: PASS — 10000ms
+[2026-04-04T16:00:27.541Z] [SUCCESS] [PenTestAgent] ✅ [DOS] Confirmation round limit OK: PASS — 4 rounds
+
+══════════════════════════════════════════════════
+  🛡️ PENETRATION TEST REPORT
+══════════════════════════════════════════════════
+[2026-04-04T16:00:27.542Z] [INFO] [PenTestAgent] Total Tests:  45
+[2026-04-04T16:00:27.543Z] [INFO] [PenTestAgent] ✅ Passed:    45
+[2026-04-04T16:00:27.544Z] [INFO] [PenTestAgent] 🔴 Failed:    0
+[2026-04-04T16:00:27.544Z] [INFO] [PenTestAgent] ⚠️  Warnings:  0
+[2026-04-04T16:00:27.545Z] [INFO] [PenTestAgent] 
+[2026-04-04T16:00:27.546Z] [INFO] [PenTestAgent] Security Score: 100%
+[2026-04-04T16:00:27.547Z] [INFO] [PenTestRunner] Report saved to: logs/pentest-report.json
