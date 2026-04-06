@@ -34,7 +34,8 @@ export default function Recommend() {
     setPaymentInfo(null);
     
     try {
-      const response = await fetch(`${BASE_URL}/recommend`, {
+      const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+      const response = await fetch(`${API_URL}/recommend`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ description }),
@@ -60,7 +61,8 @@ export default function Recommend() {
     setError(null);
     
     try {
-      const response = await fetch(`${BASE_URL}/hire`, {
+      const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+      const response = await fetch(`${API_URL}/hire`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ freelancer: recommended.recommended_freelancer }),
