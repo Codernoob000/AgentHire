@@ -1,0 +1,27 @@
+{
+  "overview": "AgentHire is an AI-powered freelance hiring platform with a modern SaaS dashboard. Post projects, discover freelancers with AI-powered matching, and hire with a seamless payment flow.",
+  "features": [
+    "Landing page with hero, features, and how-it-works sections",
+    "Email/password authentication with localStorage state",
+    "First-time user onboarding wizard with progress steps",
+    "Dashboard with sidebar navigation and user info",
+    "Post project form with validation and mock API",
+    "Freelancer discovery with AI recommendation badge and match score",
+    "Hire workflow with confirmation modal and mock payment",
+    "Payment success page with Algorand Testnet badge",
+    "Editable profile page with avatar, bio, and skills",
+    "Dark/light mode toggle with persistence",
+    "Smooth animations via Motion library",
+    "Toast notifications for all async actions"
+  ],
+  "category": "marketplace",
+  "tags": [
+    "freelance",
+    "ai",
+    "hiring",
+    "marketplace",
+    "saas",
+    "dashboard"
+  ],
+  "last_updated": "2026-04-08T14:53:16.050Z"
+}
