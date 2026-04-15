@@ -145,7 +145,7 @@ graph LR
 | ![Dashboard Placeholder](https://via.placeholder.com/400x250?text=Dashboard) | ![Selection Placeholder](https://via.placeholder.com/400x250?text=AI+Matching) |
 
 ### **Demo Video**
-[Watch the AgentHire Demo](https://link-to-your-video.com)
+[Watch the AgentHire Demo](https://youtu.be/25-dAM9EYbo)
 
 ---
 
